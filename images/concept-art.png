@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .stroke { fill:none; stroke:#00f3ff; stroke-width:4; }
+    </style>
+    <path class="stroke" d="M60 140c0-44.1 35.9-80 80-80"/>
+    <path class="stroke" d="M140 60l-20 20"/>
+    <path class="stroke" d="M140 60l20 20"/>
+</svg>

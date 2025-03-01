@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .stroke { fill:none; stroke:#00f3ff; stroke-width:4; }
+        .fill { fill:#00f3ff; }
+    </style>
+    <circle class="fill" cx="100" cy="100" r="8"/>
+    <circle class="stroke" cx="100" cy="100" r="30"/>
+    <circle class="stroke" cx="100" cy="100" r="50"/>
+    <circle class="stroke" cx="100" cy="100" r="70"/>
+</svg>
