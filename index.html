@@ -1,0 +1,835 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flown Developer - 3D Animation & Web Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-blur"></div>
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="images/2logo.svg" alt="Web Hand Tech Logo" class="logo-im">
+                <a>Web hand tech</a>
+            </div>
+            
+            <div class="nav-links">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#portfolio" class="nav-link">Portfolio</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+
+            <div class="nav-buttons">
+                <a href="tel:+919211721500" class="btn btn-phone">
+                    <i class="fas fa-phone"></i>
+                    +91 921-172-1500
+                </a>
+                <a href="contact.html" class="btn btn-primary">Get Started</a>
+                <button class="menu-toggle" aria-label="Toggle Menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <div class="mobile-menu">
+        <div class="mobile-nav-links">
+            <a href="#home" class="mobile-nav-link">Home</a>
+            <a href="#services" class="mobile-nav-link">Services</a>
+            <a href="#portfolio" class="mobile-nav-link">Portfolio</a>
+            <a href="#about" class="mobile-nav-link">About</a>
+            <a href="#contact" class="mobile-nav-link">Contact</a>
+        </div>
+    </div>
+
+    <div id="loading-screen">
+        <div class="loader"></div>
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+    </div>
+
+    <div class="custom-cursor"></div>
+    <div class="cursor-trail"></div>
+
+    <section class="hero-section">
+        <div class="hero-bg">
+            <div class="hero-particles"></div>
+            <div class="hero-gradient"></div>
+            <div class="hero-grid"></div>
+        </div>
+        
+        <div class="hero-content" data-tilt>
+            <div class="hero-content-inner">
+                <h1 class="hero-title">
+                    <span class="gradient-text">Hi, I'm SURAJ YADAV
+                        </span> Freelance Developer
+                    <br> & Designer
+                </h1>
+                <p class="hero-subtitle">Creating innovative web solutions with modern technology</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="hero-btn primary">
+                        <span>Start Project</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                    <a href="#portfolio" class="hero-btn secondary">
+                        <span>View Work</span>
+                        <div class="btn-glow"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="hero-visual">
+            <div class="hero-3d-elements">
+                <div class="floating-cube">
+                    <div class="cube-face front"></div>
+                    <div class="cube-face back"></div>
+                    <div class="cube-face right"></div>
+                    <div class="cube-face left"></div>
+                    <div class="cube-face top"></div>
+                    <div class="cube-face bottom"></div>
+                </div>
+                <div class="floating-sphere"></div>
+                <div class="floating-ring"></div>
+            </div>
+            <div class="tech-stack">
+                <div class="tech-item" data-tech="3D">
+                    <i class="fas fa-cube"></i>
+                </div>
+                <div class="tech-item" data-tech="Web">
+                    <i class="fas fa-code"></i>
+                </div>
+                <div class="tech-item" data-tech="Design">
+                    <i class="fas fa-palette"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <div class="arrows">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </section>
+    <section class="about-section" id="about">
+        <div class="about-grid-bg"></div>
+        
+        <div class="container">
+            <div class="about-container">
+                <div class="about-content-left">
+                    <div class="about-heading">
+                        <span class="about-subtitle">Who We Are</span>
+                        <h2 class="about-title">Welcome to Suraj Developer </h2>
+                    </div>
+                    
+                    <p class="about-description">
+                        - A Top Web Development Company in India
+                        100% Trusted and Registered Company in India with a professional website that provides the best web development and web design services in India. We are a company that offers multi-functional web portals, and we make sure that a well-developed and attractive website can help our clients to record ROI-driven results
+                    </p>
+                    
+                    <div class="experience-cards">
+                        <div class="exp-card">
+                            <span class="exp-number">2+</span>
+                            <span class="exp-text">Years Experience</span>
+                        </div>
+                        <div class="exp-card">
+                            <span class="exp-number">1030+</span>
+                            <span class="exp-text">Projects Completed</span>
+                        </div>
+                        <div class="exp-card">
+                            <span class="exp-number">500+</span>
+                            <span class="exp-text">Happy Clients</span>
+                        </div>
+                        <div class="exp-card">
+                            <span class="exp-number">24/7</span>
+                            <span class="exp-text">Support Available</span>
+                        </div>
+                    </div>
+                    
+                    <div class="skill-tags">
+                        <span class="skill-tag">3D Design </span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                        <span class="skill-tag">html/css/js/c/c++</span>
+                    </div>
+                </div>
+                
+                <div class="about-content-right">
+                    <div class="about-image-container">
+                        <img src="images/1suraj.jpg" alt="Our Creative Process" class="about-image">
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="services-content">
+            <p class="services-intro">We are a One-Stop Solution for delivering the best web design and development services. We render customized and affordable web design facilities to suit your requirements.</p>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/web-design-icon.svg" alt="Web Design">
+                    </div>
+                    <h3>Web Design</h3>
+                    <p>Custom and responsive web design solutions tailored to your brand</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/commerce-business-and-finance-svgrepo-com.svg" alt="E-commerce">
+                    </div>
+                    <h3>E-commerce Solutions</h3>
+                    <p>Full-featured online stores with secure payment integration</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/commerce-mobile-phone-svgrepo-com - Copy - Copy.svg" alt="Mobile Apps">
+                    </div>
+                    <h3>Mobile Applications</h3>
+                    <p>Native and cross-platform mobile app development</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/all-covered-svgrepo-com.svg" alt="SEO">
+                    </div>
+                    <h3>SEO Services</h3>
+                    <p>Search engine optimization to improve your online visibility</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/avatar-thinking-1-svgrepo-com.svg" alt="Digital Marketing">
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>Comprehensive digital marketing strategies and campaigns</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/ddos-protection-svgrepo-com.svg" alt="Graphic Design">
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Creative visual design solutions for your brand</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/contact-support.svg" alt="Maintenance">
+                    </div>
+                    <h3>Website Maintenance</h3>
+                    <p>Regular updates and maintenance to keep your site running smoothly</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/hosting-icon.svg" alt="Hosting">
+                    </div>
+                    <h3>Web Hosting</h3>
+                    <p>Reliable and secure hosting solutions for your website</p>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <img src="assets/7x24h-svgrepo-com.svg" alt="Support">
+                    </div>
+                    <h3>24/7 Support</h3>
+                    <p>Round-the-clock technical support and assistance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+       
+
+    <section class="why-choose-us" id="why-choose-us">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Why Choose Us</h2>
+                <p class="section-description">We deliver exceptional value through our comprehensive services and commitment to excellence</p>
+            </div>
+
+            <div class="features-grid">
+                <!-- Feature 1 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/hosting-icon.svg" alt="Hosting">
+                    </div>
+                    <h3>1 Year Free Domain/Hosting</h3>
+                    <p>Get started with no upfront costs - enjoy complimentary domain and hosting services for your first year.</p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/website-icon.svg" alt="Website">
+                    </div>
+                    <h3>Dynamic Websites</h3>
+                    <p>Create engaging web experiences with our attractive and responsive web designs that captivate your audience.</p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/price-icon.svg" alt="Price">
+                    </div>
+                    <h3>Pocket Friendly</h3>
+                    <p>Our design and development services start from ₹7,999/- only (18% GST applicable), making quality web solutions accessible.</p>
+                </div>
+
+                <!-- Feature 4 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/time-icon.svg" alt="Time">
+                    </div>
+                    <h3>On-Time Delivery</h3>
+                    <p>Project delivery on time with proper analysis and development of a schedule for project completion.</p>
+                </div>
+
+                <!-- Feature 5 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/service-icon.svg" alt="Service">
+                    </div>
+                    <h3>High-end Services</h3>
+                    <p>100% expert assistance and a wide range of modern tools and parameters for exceptional service delivery.</p>
+                </div>
+
+                <!-- Feature 6 -->
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <img src="images/support-icon.svg" alt="Support">
+                    </div>
+                    <h3>24*7 Support</h3>
+                    <p>Round-the-clock customer support to assist you with any queries or concerns, ensuring smooth operations.</p>
+                </div>
+
+                <!-- Feature 7 -->
+                <div class="feature-card highlight-card">
+                    <div class="feature-icon">
+                        <img src="images/innovation-icon.svg" alt="Innovation">
+                    </div>
+                    <h3>Innovation & Creativity</h3>
+                    <p>Innovation and creativity are our secrets to web designing and development success, delivering unique solutions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2>Our Completed Projects</h2>
+            <p class="section-description">Transforming ideas into exceptional digital experiences. Our portfolio showcases our commitment to quality and innovation in web development.</p>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/11.png" alt="Ola Apple Tree Co Website">
+                        <div class="project-overlay">
+                            <h3>Ola Apple Tree Co</h3>
+                            <p>Business Website</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>React</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/22.png" alt="Pritinaash Business Website">
+                        <div class="project-overlay">
+                            <h3>Pritinaash</h3>
+                            <p>Business Website</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/44.png" alt="Pritinaash Business Website">
+                        <div class="project-overlay">
+                            <h3>Pritinaash</h3>
+                            <p>Business Website</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Vue.js</span>
+                            <span>Node.js</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="images/33.png" alt="Reya Enterprises Logistics Website">
+                        <div class="project-overlay">
+                            <h3>Reya Enterprises Logistics</h3>
+                            <p>Business Website</p>
+                            <a href="#" class="view-project">View Project</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <div class="tech-stack">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>Angular</span>
+                            <span>MongoDB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+            <section class="pricing-section" id="pricing">
+                <div class="container">
+                    <h2 class="section-title">Plans & Pricing</h2>
+                    <p class="section-subtitle">Choose the perfect plan for your needs</p>
+                    
+                    <div class="pricing-grid">
+                        <!-- Standard Plan -->
+                        <div class="pricing-card">
+                            <div class="plan-badge">Standard Plan</div>
+                            <div class="plan-image">
+                                <img src="images/ccc.jpg" alt="Standard Plan">
+                            </div>
+                            <div class="price-info">
+                                <div class="original-price">₹ 10,000</div>
+                                <div class="current-price">₹ 7,999</div>
+                                <div class="tax-info">(+ 18% GST ₹ 1440)</div>
+                            </div>
+                            <div class="plan-features">
+                                <h3>Features Includes</h3>
+                                <ul>
+                                    <li>✓ Responsive Website Design</li>
+                                    <li>✓ 5 Web Pages</li>
+                                    <li>✓ Contact Form</li>
+                                    <li>✓ Mobile Friendly</li>
+                                    <li>✓ 1 Month Free Support</li>
+                                </ul>
+                            </div>
+                            <button class="plan-button">Get Started</button>
+                        </div>
+        
+                        <!-- Premium Plan -->
+                        <div class="pricing-card featured">
+                            <div class="plan-badge">Premium Plan</div>
+                            <div class="plan-image">
+                                <img src="images/ccc.jpg" alt="Premium Plan">
+                            </div>
+                            <div class="price-info">
+                                <div class="original-price">₹ 20,000</div>
+                                <div class="current-price">₹ 14,999</div>
+                                <div class="tax-info">(+ 18% GST ₹ 2700)</div>
+                            </div>
+                            <div class="plan-features">
+                                <h3>Features Includes</h3>
+                                <ul>
+                                    <li>✓ All Standard Features</li>
+                                    <li>✓ 10 Web Pages</li>
+                                    <li>✓ Advanced SEO</li>
+                                    <li>✓ E-commerce Integration</li>
+                                    <li>✓ 3 Months Free Support</li>
+                                </ul>
+                            </div>
+                            <button class="plan-button">Get Started</button>
+                        </div>
+        
+                        <!-- Custom Plan -->
+                        <div class="pricing-card">
+                            <div class="plan-badge">Custom Plan</div>
+                            <div class="plan-image">
+                                <img src="images/ss.jpg" alt="Custom Plan">
+                            </div>
+                            <div class="price-info">
+                                <div class="current-price">Custom Quote</div>
+                                <div class="tax-info">(+ 18% GST Applicable)</div>
+                            </div>
+                            <div class="plan-features">
+                                <h3>Features Includes</h3>
+                                <ul>
+                                    <li>✓ All Premium Features</li>
+                                    <li>✓ Unlimited Pages</li>
+                                    <li>✓ Custom Features</li>
+                                    <li>✓ Priority Support</li>
+                                    <li>✓ Custom Integration</li>
+                                </ul>
+                            </div>
+                            <button class="plan-button">Contact Us</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="testimonials-section" id="testimonials">
+                <div class="container">
+                    <div class="testimonials-header">
+                        <h2 class="section-title">Reviews</h2>
+                        <h3 class="section-subtitle">Our Client Testimonial</h3>
+                        <p class="section-description">We have established a record of happy clientele, as customer satisfaction is our topmost priority. Quality web designs and full-fledged coding with modern parameters is our strength. We are India's best website development company with a 100% reliable team of experts in the field.</p>
+                    </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <!-- Testimonial 1 -->
+                    <div class="testimonial-card">
+                        <div class="client-info">
+                            <img src="images/client1.jpg" alt="Mobin R" class="client-image">
+                            <div class="client-details">
+                                <h4>Mobin R</h4>
+                                <p class="review-date">a year ago</p>
+                                <div class="google-badge">
+                                    <img src="images/google-icon.svg" alt="Google Review">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Excellent Service, thank you to everyone at Flown</p>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="testimonial-card">
+                        <div class="client-info">
+                            <div class="client-initial">S</div>
+                            <div class="client-details">
+                                <h4>stanshipproject</h4>
+                                <p class="review-date">a year ago</p>
+                                <div class="google-badge">
+                                    <img src="images/google-icon.svg" alt="Google Review">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Would like to thank team Flown developers for their excellent service</p>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="testimonial-card">
+                        <div class="client-info">
+                            <img src="images/client3.jpg" alt="Urvi Shelar" class="client-image">
+                            <div class="client-details">
+                                <h4>Urvi Shelar</h4>
+                                <p class="review-date">a year ago</p>
+                                <div class="google-badge">
+                                    <img src="images/google-icon.svg" alt="Google Review">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">Amazing work done within deadline. Super professional team!</p>
+                    </div>
+
+                    <!-- Testimonial 4 -->
+                    <div class="testimonial-card">
+                        <div class="client-info">
+                            <img src="images/client4.jpg" alt="Himanshu Garg" class="client-image">
+                            <div class="client-details">
+                                <h4>Himanshu Garg</h4>
+                                <p class="review-date">a year ago</p>
+                                <div class="google-badge">
+                                    <img src="images/google-icon.svg" alt="Google Review">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="rating">
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <p class="review-text">The team is very professional and they completed the project perfectly</p>
+                    </div>
+                </div>
+
+                <div class="slider-controls">
+                    <button class="prev-btn">❮</button>
+                    <div class="slider-dots"></div>
+                    <button class="next-btn">❯</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-bg-wrapper">
+            <div class="contact-bg-circle"></div>
+            <div class="contact-bg-circle"></div>
+            <div class="contact-bg-grid"></div>
+        </div>
+
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-content">
+                    <div class="contact-heading">
+                        <span class="contact-subtitle">Let's Connect</span>
+                        <h2 class="contact-title">Get in Touch</h2>
+                        <p class="contact-description">
+                            Ready to start your next project? Let's create something extraordinary together.
+                            Drop me a message and I'll get back to you as soon as possible.
+                        </p>
+                    </div>
+
+                    <div class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" class="form-input" placeholder="Your Name" required>
+                            <label for="name" class="form-label">Your Name</label>
+                        </div>
+
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" class="form-input" placeholder="Your Email" required>
+                            <label for="email" class="form-label">Your Email</label>
+                        </div>
+
+                        <div class="form-group">
+                            <textarea id="message" name="message" class="form-input form-textarea" placeholder="Your Message" required></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                        </div>
+
+                        <button type="submit" class="submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-icon">→</span>
+                        </button>
+                    </div>
+
+                    <div class="contact-info">
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Email</h3>
+                                <p>suraj@example.com</p>
+                                <span class="card-link">Click to copy</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Phone</h3>
+                                <p>+91 123 456 7890</p>
+                                <span class="card-link">Click to copy</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-card">
+                            <div class="card-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="card-content">
+                                <h3>Location</h3>
+                                <p>Mumbai, India</p>
+                                <span class="card-link">View on map</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Twitter">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link" title="Instagram">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-visual">
+                    <div class="visual-card">
+                        <div class="card-header">
+                            <div class="profile-info"><div class="profile-image">
+                                <div class="profile-image-inner">
+                                    <div class="profile-image-front">
+                                        <img src="your-image.jpg" alt="Your Name">
+                                        <div class="profile-glow"></div>
+                                    </div>
+                                    <div class="profile-image-back">
+                                        <div class="profile-info">
+                                            <h3>Your Name</h3>
+                                            <p>Your Role/Description</p>
+                                            <div class="profile-social">
+                                                <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                                                <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                                                <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="profile-image">
+                                    <img src="images/1suraj.jpg" alt="Suraj Yadav">
+                                </div>
+                                <div class="profile-details">
+                                    <h3>Suraj Yadav</h3>
+                                    <span class="status">
+                                        <span class="status-dot"></span>
+                                        Available for Projects
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="skill-tags">
+                                <span class="skill-tag">Full Stack Development</span>
+                                <span class="skill-tag">3D Animation</span>
+                                <span class="skill-tag">UI/UX Design</span>
+                            </div>
+                            <div class="experience-stats">
+                                <div class="stat-item">
+                                    <span class="stat-number">5+</span>
+                                    <span class="stat-label">Years Experience</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">100+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">100+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">100+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">100+</span>
+                                    <span class="stat-label">Projects</span>
+                                </div>
+                                <div class="stat-item">
+                                    <span class="stat-number">50+</span>
+                                    <span class="stat-label">Happy Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-waves">
+            <div class="wave wave1"></div>
+            <div class="wave wave2"></div>
+            <div class="wave wave3"></div>
+        </div>
+        
+        <div class="footer-content">
+            <div class="footer-col" data-tilt>
+                <div class="footer-logo">
+                    <img src="images/2logo.svg" alt="Flown Developer Logo">
+                </div>
+                <p class="footer-description">
+                    Flown Developer India's No 1 Web development Company. Creating unique and premium quality websites, 3D animations, and motion graphics that bring your vision to life.
+                </p>
+            </div>
+
+            <div class="footer-col" data-tilt>
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col" data-tilt>
+                <h3>Useful Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#refund">Refund Policy</a></li>
+                    <li><a href="#privacy">Privacy Policy</a></li>
+                    <li><a href="#terms">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col" data-tilt>
+                <h3>Subscribe</h3>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Enter your email">
+                    <button type="button">
+                        <span>SEND</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 Flown Developer. All Rights Reserved.</p>
+        </div>
+
+        <a href="https://wa.me/your-whatsapp-number" class="whatsapp-button" target="_blank" data-tilt>
+            <img src="images/whatsapp-icon.svg" alt="WhatsApp">
+        </a>
+    </footer>
+    </body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="main.js"></script>
+</html>
+  
